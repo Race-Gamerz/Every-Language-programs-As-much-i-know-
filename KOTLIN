@@ -1,0 +1,5 @@
+fun String.shout() = this.uppercase() + "!!!"
+
+fun main() {
+    println("hello".shout())  // HELLO!!!
+}
